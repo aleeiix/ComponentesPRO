@@ -23,12 +23,16 @@ import { SimpleAlertViewComponent } from './simple-alert-view/simple-alert-view.
     AlertViewComponent,
     TabsComponent,
     TabComponent,
-    SimpleAlertViewComponent
+    SimpleAlertViewComponent,
+    AlertViewComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
+  ],
+  entryComponents: [
+    SimpleAlertViewComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
